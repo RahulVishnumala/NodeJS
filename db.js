@@ -1,7 +1,8 @@
 const mongoose = require('mongoose')
-
+require('dotenv').config()
 // Define the MongoDB connection URL
-const mongoURL= 'mongodb://127.0.0.1:27017/hotels' // Replace 'hotels' with your desired database name
+// const mongoURL= process.env.MONGODB_URL_LOCAL // Replace 'hotels' with your desired database name
+const mongoURL = process.env.MONGODB_URL;
 
 // Set up MongoDB connection
 // The mongoose.connect function is used to establish a connection with the MongoDB server. 
@@ -15,6 +16,7 @@ mongoose.connect(mongoURL,{
 // Get the default connection
 // Mongoose maintains a default connection 'object' representing the MongoDB connection
 const db = mongoose.connection;
+
 
 // Event Listener :-
 // Database me koi bhi events hoti hai to event listener sunta hai. 
