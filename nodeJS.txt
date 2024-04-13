@@ -38,4 +38,3 @@ Body Parser:-
 - Body parser incoming data ko server se uthata hai aur jo hame required format me data chahiye hota hai 
   wo usko usi format me bana ke de deta hai.
 --------------------------------------------------------
-Parameterized URL -
