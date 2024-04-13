@@ -1,0 +1,41 @@
+NodeJS
+=================
+Initially, JS was used in frontend only to enhance UI and interaction on button(i.e Button,dynamic color, pop up).
+But NodeJS is
+- open source
+- server side
+- Javascript
+- Runtime environment (that allow to run JS code in the server)
+
+NodeJS allow developer to use same language in frontend and backend i.e client side and server side.
+NodeJS is built on top of "Chrome v8 Javascript Engine" which is used by Google Chrome browser. 
+v8 engine convert JS code to machine code.
+---------------------------------------------------------------
+package.json - ensure a list of packages with their version.
+// Analogy: list of cloth you want to purchase with size and all, it also consists of other metadata like name and all.
+---------------------------------------------------------------
+package-lock.json - ensure detailed of every package installed with version, sub dependencies, store detailed,
+discount everything...
+- its like a detailed billed
+--------------------------------------------------------------------------------------------
+Both files work together to ensure smooth development for you and your team.
+-------------------------------------------------------------------------------------------
+--------------------------------------------------
+What are API and Endpoints?
+- Imagine a menu card in a restaurant
+- Lots of option are there, each option will give you different order
+- Now, collection of that list = Menu card = API'same
+- And am option in the list = Endpoint
+- And the waiter only understood whatever things are written on the menu card
+------------------------------------------------------------------------------
+- An API is a set of rules and protocols that allows different software applications to communicate with each other. It is like a menu card in a restaurant, where the options represent different functionalities, and the waiter (the server) only understands what is written on the menu card (the API).
+
+- An endpoint is a specific URL that represents a particular function or service within an API. It is like an option in the menu card. When a client application (like a user's browser) sends a request to an endpoint, it is like the user ordering a specific dish from the menu card.
+------------------------------------------------------------------------------------
+Body Parser:-
+- Body parser is a middleware library for express.js
+- It is used to parse and extract the body of incoming HTTP request.
+- Body parser incoming data ko server se uthata hai aur jo hame required format me data chahiye hota hai 
+  wo usko usi format me bana ke de deta hai.
+--------------------------------------------------------
+Parameterized URL -

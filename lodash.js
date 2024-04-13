@@ -1,0 +1,13 @@
+// Widely used library
+const _ = require('lodash');
+
+var data = ["person","person",1,2,1,2,"name","age","2"]
+var filter = _.uniq(data);
+console.log(filter)
+
+console.log(_.isString("Raj"))
+console.log(_.isBoolean(1))
+console.log(_.isNumber(data[0]))
+console.log(_.isNumber(2))
+
+console.log(_.chunk(data),3)
